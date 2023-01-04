@@ -1,18 +1,18 @@
-db = db.getSiblingDB('marker-test');
+db = db.getSiblingDB("marker");
 
-db.createCollection('user_test');
+db.createCollection("user");
 
-db.user_test.insertMany([
- {
-    userName: 'somsak',
-    userEmail: 'somsak@marker.com'
+db.user.insertMany([
+  {
+    userName: "somsak",
+    userEmail: "somsakra@live.com",
   },
   {
-    userName: 'john',
-    userEmail: 'john@doe.com'
+    userName: "john",
+    userEmail: "john@doe.com",
   },
   {
-    userName: 'tong',
-    userEmail: 'tong@github.com'
-  }  
+    userName: "tong",
+    userEmail: "tong@github.com",
+  },
 ]);
